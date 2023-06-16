@@ -1,0 +1,2495 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+} 
+
+
+.site{
+    margin: 200px;
+    padding: 0;
+    margin-bottom: 0px;
+}
+
+#vai h1{
+    font-size: 70px;
+}
+
+#vai h3{
+    padding: 10px ; 
+    font-size: 50px;
+}
+
+main{
+    width: 100%;
+    height: 600px;
+    line-height: 250px;
+    border-radius: 1px 1px 1px 1px;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 1px rgb(3, 122, 122);
+    font-size: 30px;
+    font-weight:bolder ;
+    text-align: center;
+}
+
+main img{
+    width: 300px;
+}
+
+.serviços{
+    width: 100%;
+    height: 600px;
+    background-color: rgba(5, 5, 5, 0.034);
+}
+
+.serviços h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 30px;
+    padding: 40px;
+
+}
+.amostras{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.amostra1, .amostra2, .amostra3{
+    height: 200px;
+    width: 300px;
+    border: 1px solid rgb(4, 179, 179);
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(170, 223, 236);;
+    line-height: 200px;
+    
+}
+
+#data {
+    font-family: 'Digital Numbers', sans-serif;
+    color:rgb(238, 255, 0);
+    text-shadow: 1px 2px 2px rgb(0, 0, 0);
+    font-weight: bolder;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    border-radius:10px 10px 10px 10px;
+    
+}
+
+
+.date{
+    padding: 2%;
+    margin: 0 auto;
+}
+
+.amostra1:hover, .amostra2:hover,.amostra3:hover{
+    transition: background-color 0.0s ease;
+    transform: scale(1.1);
+    background-color: red;
+    color: white;
+}
+
+#sobre h1{
+    font-size: 40px;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(200, 236, 245);
+}
+
+#sobre{
+    text-align: center;
+    margin:30px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.businness{
+    text-align: center;
+    margin: 30px;
+}
+
+.businness h1{
+    font-size: 40px;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(200, 236, 245);
+   
+
+}
+
+.slides{
+    width: 50%;
+    justify-content: center;
+    margin: auto;
+}
+
+#contato{
+    text-align: center;
+    margin: 30px;
+}
+
+#contato h1{
+    font-size: 40px;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(200, 236, 245);
+}
+
+button{
+    background-color: red;
+    padding: 5px;
+}
+
+button a{
+    border: none;
+    color: white;  
+    text-decoration: none;
+    animation: animate 0.7s linear infinite;
+}
+
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.7;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+button:hover{
+    
+    scale: 1.1;
+    
+}
+
+#localizaçao {
+    text-align: center;
+    margin:30px;   
+}
+
+#localizaçao h1{
+    font-size: 40px;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(200, 236, 245);
+}
+
+footer{
+    background-color: rgb(200, 236, 245);
+    height: 200px;
+    text-align: center;
+}
+
+footer h3{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    
+}
+
+footer p {
+    float: left;
+    margin: 10px;
+    color: white;
+    text-shadow: 4px 5px 4px rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 10px;
+    padding-bottom: 100px ;
+}
+
+.footer1 a{
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    margin: 10px;
+}
+
+.footer1 a:hover{
+    color: red;
+}
+
+.footer1 h3{
+    padding: 7px;
+}
+
+
+.end{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    position: relative;
+    bottom: 0;
+
+}
+
+@media only screen and (max-width: 1001px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        min-height: 100vh;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+    } 
+    
+    
+    .site{
+        margin: 0;
+        padding: 0;
+    }
+    
+    #vai h1{
+        font-size: 40px;
+    }
+
+    #vai h3{
+        font-size: 30px;
+    }
+    
+    main{
+        width: 100%;
+        height: 300px;
+        line-height: 100px;
+        border-radius: 1px 1px 1px 1px;
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px 1px rgb(3, 122, 122);
+        font-weight:bolder ;
+        text-align: center;
+    }
+
+    main img{
+        width: 120px;
+    }
+    
+    
+    .serviços{
+        width: 100%;
+        height: 1000px;
+        background-color: rgba(0, 0, 0, 0.068);
+    }
+    
+    .serviços h1{
+        text-align: center;
+        font-size: 20;
+        margin: 30px;
+        padding: 40px;
+    
+    }
+    .amostras{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    .amostra1, .amostra2, .amostra3{
+        height: 100%;
+        width: 60%;
+        border: 1px solid rgb(4, 179, 179);
+        display: inline-block;
+        margin: 10px;
+        background-color: rgb(200, 236, 245);;
+        /*line-height: 200px;*/
+        
+    }
+    
+    .amostra1:hover, .amostra2:hover,.amostra3:hover{
+        transition: background-color 0.0s ease;
+        transform: scale(1.1);
+        background-color: red;
+        color: white;
+    }
+    
+    #sobre h1{
+        font-size: 40px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(200, 236, 245);
+    }
+    
+    #sobre{
+        text-align: center;
+        margin:30px;
+    }
+    
+    p{
+        font-size: 20px;
+    }
+    
+    .businness{
+        text-align: center;
+        margin: 30px;
+    }
+    
+    .businness h1{
+        font-size: 40px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(200, 236, 245);
+       
+    
+    }
+    
+    .slides{
+        width: 100%;
+        justify-content: center;
+        margin: auto;
+    }
+    
+    #contato{
+        text-align: center;
+        margin: 30px;
+    }
+    
+    #contato h1{
+        font-size: 40px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(200, 236, 245);
+    }
+    
+    button{
+        background-color: red;
+        padding: 5px;
+    }
+    
+    button a{
+        border: none;
+        color: white;  
+        text-decoration: none;
+        animation: animate 0.7s linear infinite;
+    }
+    
+    
+    @keyframes animate {
+        0% {
+            opacity: 0;
+        }
+    
+        50% {
+            opacity: 0.7;
+        }
+    
+        100% {
+            opacity: 0;
+        }
+    }
+    
+    button:hover{
+        
+        scale: 1.1;
+        
+    }
+    
+    #localizaçao {
+        text-align: center;
+        margin:30px;
+        
+    }
+    
+    #localizaçao h1{
+        font-size: 40px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(200, 236, 245);
+    }
+    .footer-pai{
+        text-align: center;
+        display: inline-block;
+    }
+    footer{
+        background-color: rgb(200, 236, 245);
+        height: 500px;
+        text-align: center;
+    }
+
+    footer p {
+        float: left;
+        margin: 10px;
+        color: white;
+        text-shadow: 4px 5px 4px rgb(0, 0, 0);
+        font-size: 40px;
+        font-weight: bolder;
+        padding: 10px;
+        padding-bottom: 100px ;
+    }
+    
+    .footer1 a{
+        padding: 10px;
+        display: block;
+        text-decoration: none;
+        color:rgb(255, 255, 255);
+        text-shadow: 1px 1px 2px rgb(0, 0, 0);
+        margin: 10px;
+    }
+    
+    .footer1 a:hover{
+        color: red;
+    }
+    
+    .end{
+        background-color: black;
+        color: white;
+        text-align: center;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
+    
+    }
+
+  }
+
+  @media only screen and (max-width: 485px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        min-height: 100vh;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+    } 
+    
+    
+    .site{
+        margin: 0;
+        padding: 0;
+    }
+    
+    #vai h1{
+        font-size: 40px;
+    }
+
+    #vai h3{
+        font-size: 30px;
+    }
+    
+    main{
+        width: 100%;
+        height: 300px;
+        line-height: 100px;
+        border-radius: 1px 1px 1px 1px;
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px 1px rgb(3, 122, 122);
+        font-weight:bolder ;
+        text-align: center;
+    }
+
+    main img{
+        width: 120px;
+    }
+    
+    #data {
+        font-family: 'Digital Numbers', sans-serif;
+        color:rgb(238, 255, 0);
+        text-shadow: 1px 2px 2px rgb(0, 0, 0);
+        font-weight: bolder;
+        text-align: center;
+        background-color: rgb(0, 0, 0);
+        width: 300px;
+        margin: auto;
+        padding:2px;
+        border-radius:10px 10px 10px 10px;
+        
+    }
+    
+    
+    .date{
+        padding: 2%;
+        margin: 0 auto;
+    }
+    
+    .serviços{
+        width: 100%;
+        height: 1000px;
+        background-color: rgba(0, 0, 0, 0.068);
+    }
+    
+    .serviços h1{
+        text-align: center;
+        font-size: 20;
+        margin: 30px;
+        padding: 40px;
+    
+    }
+    .amostras{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    .amostra1, .amostra2, .amostra3{
+        height: 200px;
+        width: 50%;
+        border: 1px solid rgb(4, 179, 179);
+        display: inline-block;
+        margin: 10px;
+        background-color: rgb(200, 236, 245);;
+        /*line-height: 200px;*/
+        
+    }
+    
+    .amostra1:hover, .amostra2:hover,.amostra3:hover{
+        transition: background-color 0.0s ease;
+        transform: scale(1.1);
+        background-color: red;
+        color: white;
+    }
+    
+    #sobre h1{
+        font-size: 40px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(200, 236, 245);
+    }
+    
+    #sobre{
+        text-align: center;
+        margin:30px;
+    }
+    
+    p{
+        font-size: 20px;
+    }
+    
+    .businness{
+        text-align: center;
+        margin: 30px;
+    }
+    
+    .businness h1{
+        font-size: 40px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(200, 236, 245);
+       
+    
+    }
+    
+    .slides{
+        width: 100%;
+        justify-content: center;
+        margin: auto;
+    }
+    
+    #contato{
+        text-align: center;
+        margin: 30px;
+    }
+    
+    #contato h1{
+        font-size: 40px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(200, 236, 245);
+    }
+    
+    button{
+        background-color: red;
+        padding: 5px;
+    }
+    
+    button a{
+        border: none;
+        color: white;  
+        text-decoration: none;
+        animation: animate 0.7s linear infinite;
+    }
+    
+    
+    @keyframes animate {
+        0% {
+            opacity: 0;
+        }
+    
+        50% {
+            opacity: 0.7;
+        }
+    
+        100% {
+            opacity: 0;
+        }
+    }
+    
+    button:hover{
+        
+        scale: 1.1;
+        
+    }
+    
+    #localizaçao {
+        text-align: center;
+        margin:30px;
+        
+    }
+    
+    #localizaçao h1{
+        font-size: 40px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(200, 236, 245);
+    }
+    
+    footer{
+        background-color: rgb(200, 236, 245);
+        height: 500px;
+        text-align: center;  
+    }
+
+    footer p {
+        float: left;
+        margin: 10px;
+        color: white;
+        text-shadow: 4px 5px 4px rgb(0, 0, 0);
+        font-size: 40px;
+        font-weight: bolder;
+        padding: 10px;
+        padding-bottom: 100px ;
+    }
+    
+    .footer1 a{
+        padding: 10px;
+        display: block;
+        text-decoration: none;
+        color:rgb(255, 255, 255);
+        text-shadow: 1px 1px 2px rgb(0, 0, 0);
+        margin: 10px;
+    }
+    
+    .footer1 a:hover{
+        color: red;
+    }
+    
+    .end{
+        background-color: black;
+        color: white;
+        text-align: center;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
+    
+    }
+
+  }
+
+  @media only screen and (max-width: 315px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        min-height: 100vh;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+    } 
+    
+    
+    .site{
+        margin: 0;
+        padding: 0;
+    }
+    
+    #vai h1{
+        font-size: 30px;
+    }
+
+    #vai h3{
+        font-size: 10px;
+    }
+    
+    main{
+        width: 100%;
+        height: 300px;
+        border-radius: 1px 1px 1px 1px;
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px 1px rgb(3, 122, 122);
+        font-weight:bolder ;
+        text-align: center;
+    }
+
+    main img{
+        width: 100px;
+    }
+    
+    #data {
+        font-family: 'Digital Numbers', sans-serif;
+        color:rgb(238, 255, 0);
+        text-shadow: 1px 2px 2px rgb(0, 0, 0);
+        font-weight: bolder;
+        text-align: center;
+        background-color: rgb(0, 0, 0);
+        width: 250px;
+        margin: auto;
+        padding: 2px;
+        border-radius:10px 10px 10px 10px;
+        
+    }
+    
+    
+    .date{
+        padding: 2%;
+        margin: 0 auto;
+        
+    }
+
+    .datep{
+        font-size: 5px;
+    }
+    
+    .serviços{
+        width: 100%;
+        height: 1000px;
+        background-color: rgba(0, 0, 0, 0.068);
+    }
+    
+    .serviços h1{
+        text-align: center;
+        font-size: 32px;
+        margin: 20px;
+        padding: 40px;
+    
+    }
+    .amostras{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    .amostra1, .amostra2, .amostra3{
+        height: 50px;
+        width:50px;
+        border: 1px solid rgb(4, 179, 179);
+        display: inline-block;
+        margin: 10px;
+        background-color: rgb(200, 236, 245);;
+        /*line-height: 200px;*/
+        
+    }
+
+    .amostras img{
+        width: 40px;
+    } 
+    
+    .amostra1:hover, .amostra2:hover,.amostra3:hover{
+        transition: background-color 0.0s ease;
+        transform: scale(1.1);
+        background-color: red;
+        color: white;
+    }
+    
+    #sobre h1{
+        font-size: 40px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(200, 236, 245);
+    }
+    
+    #sobre{
+        text-align: center;
+        margin:30px;
+    }
+    
+    p{
+        font-size: 20px;
+    }
+    
+    .businness{
+        text-align: center;
+        margin: 30px;
+    }
+    
+    .businness h1{
+        font-size: 40px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(200, 236, 245);
+       
+    
+    }
+    
+    .slides{
+        width: 100%;
+        justify-content: center;
+        margin: auto;
+    }
+    
+    #contato{
+        text-align: center;
+        margin: 30px;
+    }
+    
+    #contato h1{
+        font-size: 40px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(200, 236, 245);
+    }
+    
+    button{
+        background-color: red;
+        padding: 5px;
+    }
+    
+    button a{
+        border: none;
+        color: white;  
+        text-decoration: none;
+        animation: animate 0.7s linear infinite;
+    }
+    
+    
+    @keyframes animate {
+        0% {
+            opacity: 0;
+        }
+    
+        50% {
+            opacity: 0.7;
+        }
+    
+        100% {
+            opacity: 0;
+        }
+    }
+    
+    button:hover{
+        
+        scale: 1.1;
+        
+    }
+    
+    #localizaçao {
+        text-align: center;
+        margin:30px;
+        
+    }
+    
+    #localizaçao h1{
+        font-size: 40px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(200, 236, 245);
+    }
+    .footer-pai{
+        text-align: center;
+        display: inline-block;
+    }
+    footer{
+        background-color: rgb(200, 236, 245);
+        height: 500px;
+        text-align: center;
+    }
+
+    footer p {
+        float: left;
+        margin: 10px;
+        color: white;
+        text-shadow: 4px 5px 4px rgb(0, 0, 0);
+        font-size: 40px;
+        font-weight: bolder;
+        padding: 10px;
+        padding-bottom: 100px ;
+    }
+    
+    .footer1 a{
+        padding: 10px;
+        display: block;
+        text-decoration: none;
+        color:rgb(255, 255, 255);
+        text-shadow: 1px 1px 2px rgb(0, 0, 0);
+        margin: 10px;
+    }
+    
+    .footer1 a:hover{
+        color: red;
+    }
+    
+    .end{
+        background-color: black;
+        color: white;
+        text-align: center;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
+    
+    }
+
+  }
+
+  @media only screen and (max-width: 1053px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        min-height: 100vh;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+    } 
+    
+    
+    .site{
+        margin: 0;
+        padding: 0;
+    }
+    
+    #vai h1{
+        font-size: 40px;
+    }
+
+    #vai h3{
+        font-size: 30px;
+    }
+    
+    main{
+        width: 100%;
+        height: 300px;
+        line-height: 100px;
+        border-radius: 1px 1px 1px 1px;
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px 1px rgb(3, 122, 122);
+        font-weight:bolder ;
+        text-align: center;
+    }
+
+    main img{
+        width: 120px;
+    }
+    
+    
+    .serviços{
+        width: 100%;
+        height: 1000px;
+        background-color: rgba(0, 0, 0, 0.068);
+    }
+    
+    .serviços h1{
+        text-align: center;
+        font-size: 20;
+        margin: 30px;
+        padding: 40px;
+    
+    }
+    .amostras{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    .amostra1, .amostra2, .amostra3{
+        height: 200px;
+        width: 50%;
+        border: 1px solid rgb(4, 179, 179);
+        display: inline-block;
+        margin: 10px;
+        background-color: rgb(200, 236, 245);;
+        /*line-height: 200px;*/
+        
+    }
+    
+    .amostra1:hover, .amostra2:hover,.amostra3:hover{
+        transition: background-color 0.0s ease;
+        transform: scale(1.1);
+        background-color: red;
+        color: white;
+    }
+    
+    #sobre h1{
+        font-size: 40px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(200, 236, 245);
+    }
+    
+    #sobre{
+        text-align: center;
+        margin:30px;
+    }
+    
+    p{
+        font-size: 20px;
+    }
+    
+    .businness{
+        text-align: center;
+        margin: 30px;
+    }
+    
+    .businness h1{
+        font-size: 40px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(200, 236, 245);
+       
+    
+    }
+    
+    .slides{
+        width: 100%;
+        justify-content: center;
+        margin: auto;
+    }
+    
+    #contato{
+        text-align: center;
+        margin: 30px;
+    }
+    
+    #contato h1{
+        font-size: 40px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(200, 236, 245);
+    }
+    
+    button{
+        background-color: red;
+        padding: 5px;
+    }
+    
+    button a{
+        border: none;
+        color: white;  
+        text-decoration: none;
+        animation: animate 0.7s linear infinite;
+    }
+    
+    
+    @keyframes animate {
+        0% {
+            opacity: 0;
+        }
+    
+        50% {
+            opacity: 0.7;
+        }
+    
+        100% {
+            opacity: 0;
+        }
+    }
+    
+    button:hover{
+        
+        scale: 1.1;
+        
+    }
+    
+    #localizaçao {
+        text-align: center;
+        margin:30px;
+        
+    }
+    
+    #localizaçao h1{
+        font-size: 40px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(200, 236, 245);
+    }
+    
+    footer{
+        background-color: rgb(200, 236, 245);
+        height: 500px;
+        text-align: center;  
+    }
+
+    footer p {
+        float: left;
+        margin: 10px;
+        color: white;
+        text-shadow: 4px 5px 4px rgb(0, 0, 0);
+        font-size: 40px;
+        font-weight: bolder;
+        padding: 10px;
+        padding-bottom: 100px ;
+    }
+    
+    .footer1 a{
+        padding: 10px;
+        display: block;
+        text-decoration: none;
+        color:rgb(255, 255, 255);
+        text-shadow: 1px 1px 2px rgb(0, 0, 0);
+        margin: 10px;
+    }
+    
+    .footer1 a:hover{
+        color: red;
+    }
+    
+    .end{
+        background-color: black;
+        color: white;
+        text-align: center;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
+    
+    }
+
+}
+
+@media only screen and (max-width: 1001px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        min-height: 100vh;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+    } 
+    
+    
+    .site{
+        margin: 0;
+        padding: 0;
+    }
+    
+    #vai h1{
+        font-size: 40px;
+    }
+
+    #vai h3{
+        font-size: 30px;
+    }
+    
+    main{
+        width: 100%;
+        height: 300px;
+        line-height: 100px;
+        border-radius: 1px 1px 1px 1px;
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px 1px rgb(3, 122, 122);
+        font-weight:bolder ;
+        text-align: center;
+    }
+
+    main img{
+        width: 120px;
+    }
+    
+    
+    .serviços{
+        width: 100%;
+        height: 1000px;
+        background-color: rgba(0, 0, 0, 0.068);
+    }
+    
+    .serviços h1{
+        text-align: center;
+        font-size: 20;
+        margin: 30px;
+        padding: 40px;
+    
+    }
+    .amostras{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    .amostra1, .amostra2, .amostra3{
+        height: 100%;
+        width: 60%;
+        border: 1px solid rgb(4, 179, 179);
+        display: inline-block;
+        margin: 10px;
+        background-color: rgb(200, 236, 245);;
+        /*line-height: 200px;*/
+        
+    }
+    
+    .amostra1:hover, .amostra2:hover,.amostra3:hover{
+        transition: background-color 0.0s ease;
+        transform: scale(1.1);
+        background-color: red;
+        color: white;
+    }
+    
+    #sobre h1{
+        font-size: 40px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(200, 236, 245);
+    }
+    
+    #sobre{
+        text-align: center;
+        margin:30px;
+    }
+    
+    p{
+        font-size: 20px;
+    }
+    
+    .businness{
+        text-align: center;
+        margin: 30px;
+    }
+    
+    .businness h1{
+        font-size: 40px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(200, 236, 245);
+       
+    
+    }
+    
+    .slides{
+        width: 100%;
+        justify-content: center;
+        margin: auto;
+    }
+    
+    #contato{
+        text-align: center;
+        margin: 30px;
+    }
+    
+    #contato h1{
+        font-size: 40px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(200, 236, 245);
+    }
+    
+    button{
+        background-color: red;
+        padding: 5px;
+    }
+    
+    button a{
+        border: none;
+        color: white;  
+        text-decoration: none;
+        animation: animate 0.7s linear infinite;
+    }
+    
+    
+    @keyframes animate {
+        0% {
+            opacity: 0;
+        }
+    
+        50% {
+            opacity: 0.7;
+        }
+    
+        100% {
+            opacity: 0;
+        }
+    }
+    
+    button:hover{
+        
+        scale: 1.1;
+        
+    }
+    
+    #localizaçao {
+        text-align: center;
+        margin:30px;
+        
+    }
+    
+    #localizaçao h1{
+        font-size: 40px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(200, 236, 245);
+    }
+    .footer-pai{
+        text-align: center;
+        display: inline-block;
+    }
+    footer{
+        background-color: rgb(200, 236, 245);
+        height: 500px;
+        text-align: center;
+    }
+
+    footer p {
+        float: left;
+        margin: 10px;
+        color: white;
+        text-shadow: 4px 5px 4px rgb(0, 0, 0);
+        font-size: 40px;
+        font-weight: bolder;
+        padding: 10px;
+        padding-bottom: 100px ;
+    }
+    
+    .footer1 a{
+        padding: 10px;
+        display: block;
+        text-decoration: none;
+        color:rgb(255, 255, 255);
+        text-shadow: 1px 1px 2px rgb(0, 0, 0);
+        margin: 10px;
+    }
+    
+    .footer1 a:hover{
+        color: red;
+    }
+    
+    .end{
+        background-color: black;
+        color: white;
+        text-align: center;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
+    
+    }
+
+  }
+
+  @media only screen and (max-width: 293px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        min-height: 100vh;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+    } 
+    
+    
+    .site{
+        margin: 0;
+        padding: 0;
+    }
+    
+    #vai h1{
+        font-size: 30px;
+    }
+
+    #vai h3{
+        font-size: 30px;
+    }
+    
+    main{
+        width: 100%;
+        height: 300px;
+        line-height: 100px;
+        border-radius: 1px 1px 1px 1px;
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px 1px rgb(3, 122, 122);
+        font-weight:bolder ;
+        text-align: center;
+    }
+
+    main img{
+        width: 120px;
+    }
+    
+    
+    .serviços{
+        width: 100%;
+        height: 1000px;
+        background-color: rgba(0, 0, 0, 0.068);
+    }
+    
+    .serviços h1{
+        text-align: center;
+        font-size: 20px;
+        margin: 30px;
+        padding: 40px;
+    
+    }
+    .amostras{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    .amostra1, .amostra2, .amostra3{
+        height: 200px;
+        width: 250px;
+        border: 1px solid rgb(4, 179, 179);
+        display: inline-block;
+        margin: 10px;
+        margin-top: 0px;
+        background-color: rgb(200, 236, 245);;
+        /*line-height: 200px;*/
+        
+    }
+    
+    .amostra1:hover, .amostra2:hover,.amostra3:hover{
+        transition: background-color 0.0s ease;
+        transform: scale(1.1);
+        background-color: red;
+        color: white;
+    }
+    
+    #sobre h1{
+        font-size: 40px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(200, 236, 245);
+    }
+    
+    #sobre{
+        text-align: center;
+        margin:30px;
+    }
+    
+    p{
+        font-size: 20px;
+    }
+    
+    .businness{
+        text-align: center;
+        margin: 30px;
+    }
+    
+    .businness h1{
+        font-size: 40px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(200, 236, 245);
+       
+    
+    }
+    
+    .slides{
+        width: 100%;
+        justify-content: center;
+        margin: auto;
+    }
+    
+    #contato{
+        text-align: center;
+        margin: 30px;
+    }
+    
+    #contato h1{
+        font-size: 40px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(200, 236, 245);
+    }
+    
+    button{
+        background-color: red;
+        padding: 5px;
+    }
+    
+    button a{
+        border: none;
+        color: white;  
+        text-decoration: none;
+        animation: animate 0.7s linear infinite;
+    }
+    
+    
+    @keyframes animate {
+        0% {
+            opacity: 0;
+        }
+    
+        50% {
+            opacity: 0.7;
+        }
+    
+        100% {
+            opacity: 0;
+        }
+    }
+    
+    button:hover{
+        
+        scale: 1.1;
+        
+    }
+    
+    #localizaçao {
+        text-align: center;
+        margin:30px;
+        
+    }
+    
+    #localizaçao h1{
+        font-size: 40px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(200, 236, 245);
+    }
+    
+    footer{
+        background-color: rgb(200, 236, 245);
+        height: 500px;
+        text-align: center;  
+    }
+
+    footer p {
+        float: left;
+        margin: 10px;
+        color: white;
+        text-shadow: 4px 5px 4px rgb(0, 0, 0);
+        font-size: 40px;
+        font-weight: bolder;
+        padding: 10px;
+        padding-bottom: 100px ;
+    }
+    
+    .footer1 a{
+        padding: 10px;
+        display: block;
+        text-decoration: none;
+        color:rgb(255, 255, 255);
+        text-shadow: 1px 1px 2px rgb(0, 0, 0);
+        margin: 10px;
+    }
+    
+    .footer1 a:hover{
+        color: red;
+    }
+    
+    .end{
+        background-color: black;
+        color: white;
+        text-align: center;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
+    
+    }
+
+}
+
+@media only screen and (max-width: 1001px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        min-height: 100vh;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+    } 
+    
+    
+    .site{
+        margin: 0;
+        padding: 0;
+    }
+    
+    #vai h1{
+        font-size: 40px;
+    }
+
+    #vai h3{
+        font-size: 30px;
+    }
+    
+    main{
+        width: 100%;
+        height: 300px;
+        line-height: 100px;
+        border-radius: 1px 1px 1px 1px;
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px 1px rgb(3, 122, 122);
+        font-weight:bolder ;
+        text-align: center;
+    }
+
+    main img{
+        width: 120px;
+    }
+    
+    
+    .serviços{
+        width: 100%;
+        height: 1000px;
+        background-color: rgba(0, 0, 0, 0.068);
+    }
+    
+    .serviços h1{
+        text-align: center;
+        font-size: 20;
+        margin: 30px;
+        padding: 40px;
+    
+    }
+    .amostras{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    .amostra1, .amostra2, .amostra3{
+        height: 100%;
+        width: 60%;
+        border: 1px solid rgb(4, 179, 179);
+        display: inline-block;
+        margin: 10px;
+        background-color: rgb(200, 236, 245);;
+        /*line-height: 200px;*/
+        
+    }
+    
+    .amostra1:hover, .amostra2:hover,.amostra3:hover{
+        transition: background-color 0.0s ease;
+        transform: scale(1.1);
+        background-color: red;
+        color: white;
+    }
+    
+    #sobre h1{
+        font-size: 40px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(200, 236, 245);
+    }
+    
+    #sobre{
+        text-align: center;
+        margin:30px;
+    }
+    
+    p{
+        font-size: 20px;
+    }
+    
+    .businness{
+        text-align: center;
+        margin: 30px;
+    }
+    
+    .businness h1{
+        font-size: 40px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(200, 236, 245);
+       
+    
+    }
+    
+    .slides{
+        width: 100%;
+        justify-content: center;
+        margin: auto;
+    }
+    
+    #contato{
+        text-align: center;
+        margin: 30px;
+    }
+    
+    #contato h1{
+        font-size: 40px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(200, 236, 245);
+    }
+    
+    button{
+        background-color: red;
+        padding: 5px;
+    }
+    
+    button a{
+        border: none;
+        color: white;  
+        text-decoration: none;
+        animation: animate 0.7s linear infinite;
+    }
+    
+    
+    @keyframes animate {
+        0% {
+            opacity: 0;
+        }
+    
+        50% {
+            opacity: 0.7;
+        }
+    
+        100% {
+            opacity: 0;
+        }
+    }
+    
+    button:hover{
+        
+        scale: 1.1;
+        
+    }
+    
+    #localizaçao {
+        text-align: center;
+        margin:30px;
+        
+    }
+    
+    #localizaçao h1{
+        font-size: 40px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(200, 236, 245);
+    }
+    .footer-pai{
+        text-align: center;
+        display: inline-block;
+    }
+    footer{
+        background-color: rgb(200, 236, 245);
+        height: 500px;
+        text-align: center;
+    }
+
+    footer p {
+        float: left;
+        margin: 10px;
+        color: white;
+        text-shadow: 4px 5px 4px rgb(0, 0, 0);
+        font-size: 40px;
+        font-weight: bolder;
+        padding: 10px;
+        padding-bottom: 100px ;
+    }
+    
+    .footer1 a{
+        padding: 10px;
+        display: block;
+        text-decoration: none;
+        color:rgb(255, 255, 255);
+        text-shadow: 1px 1px 2px rgb(0, 0, 0);
+        margin: 10px;
+    }
+    
+    .footer1 a:hover{
+        color: red;
+    }
+    
+    .end{
+        background-color: black;
+        color: white;
+        text-align: center;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
+    
+    }
+
+  }
+
+@media only screen and (max-width: 1107px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        min-height: 100vh;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+    } 
+    
+    
+    .site{
+        margin: 0;
+        padding: 0;
+    }
+    
+    #vai h1{
+        font-size: 40px;
+    }
+
+    #vai h3{
+        font-size: 30px;
+    }
+    
+    main{
+        width: 100%;
+        height: 300px;
+        line-height: 100px;
+        border-radius: 1px 1px 1px 1px;
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px 1px rgb(3, 122, 122);
+        font-weight:bolder ;
+        text-align: center;
+    }
+
+    main img{
+        width: 120px;
+    }
+    
+    
+    .serviços{
+        width: 100%;
+        height: 1000px;
+        background-color: rgba(0, 0, 0, 0.068);
+    }
+    
+    .serviços h1{
+        text-align: center;
+        font-size: 20;
+        margin: 30px;
+        padding: 40px;
+    
+    }
+    .amostras{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    .amostra1, .amostra2, .amostra3{
+        height: 200px;
+        width: 50%;
+        border: 1px solid rgb(4, 179, 179);
+        display: inline-block;
+        margin: 10px;
+        background-color: rgb(200, 236, 245);;
+        /*line-height: 200px;*/
+        
+    }
+    
+    .amostra1:hover, .amostra2:hover,.amostra3:hover{
+        transition: background-color 0.0s ease;
+        transform: scale(1.1);
+        background-color: red;
+        color: white;
+    }
+    
+    #sobre h1{
+        font-size: 40px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(200, 236, 245);
+    }
+    
+    #sobre{
+        text-align: center;
+        margin:30px;
+    }
+    
+    p{
+        font-size: 20px;
+    }
+    
+    .businness{
+        text-align: center;
+        margin: 30px;
+    }
+    
+    .businness h1{
+        font-size: 40px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(200, 236, 245);
+       
+    
+    }
+    
+    .slides{
+        width: 100%;
+        justify-content: center;
+        margin: auto;
+    }
+    
+    #contato{
+        text-align: center;
+        margin: 30px;
+    }
+    
+    #contato h1{
+        font-size: 40px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(200, 236, 245);
+    }
+    
+    button{
+        background-color: red;
+        padding: 5px;
+    }
+    
+    button a{
+        border: none;
+        color: white;  
+        text-decoration: none;
+        animation: animate 0.7s linear infinite;
+    }
+    
+    
+    @keyframes animate {
+        0% {
+            opacity: 0;
+        }
+    
+        50% {
+            opacity: 0.7;
+        }
+    
+        100% {
+            opacity: 0;
+        }
+    }
+    
+    button:hover{
+        
+        scale: 1.1;
+        
+    }
+    
+    #localizaçao {
+        text-align: center;
+        margin:30px;
+        
+    }
+    
+    #localizaçao h1{
+        font-size: 40px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(200, 236, 245);
+    }
+    
+    footer{
+        background-color: rgb(200, 236, 245);
+        height: 500px;
+        text-align: center;  
+    }
+
+    footer p {
+        float: left;
+        margin: 10px;
+        color: white;
+        text-shadow: 4px 5px 4px rgb(0, 0, 0);
+        font-size: 40px;
+        font-weight: bolder;
+        padding: 10px;
+        padding-bottom: 100px ;
+    }
+    
+    .footer1 a{
+        padding: 10px;
+        display: block;
+        text-decoration: none;
+        color:rgb(255, 255, 255);
+        text-shadow: 1px 1px 2px rgb(0, 0, 0);
+        margin: 10px;
+    }
+    
+    .footer1 a:hover{
+        color: red;
+    }
+    
+    .end{
+        background-color: black;
+        color: white;
+        text-align: center;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
+    
+    }
+
+}
+
+@media only screen and (max-width: 201px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        min-height: 100vh;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+    } 
+    
+    
+    .site{
+        margin: 0;
+        padding: 0;
+    }
+    
+    #vai h1{
+        font-size:5px;
+    }
+
+    #vai h3{
+        font-size: 10px;
+    }
+    
+    main{
+        width: 100%;
+        height: 200px;
+        border-radius: 1px 1px 1px 1px;
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px 1px rgb(3, 122, 122);
+        font-weight:bolder ;
+        text-align: center;
+    }
+
+    .imagelava{
+        width: 60px;
+    }
+    
+    
+    .serviços{
+        width: 100%;
+        height: 1000px;
+        background-color: rgba(0, 0, 0, 0.068);
+    }
+    
+    .serviços h1{
+        text-align: center;
+        font-size: 20px;
+        margin: 30px;
+        padding: 40px;
+    
+    }
+    .amostras{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .amostras img{
+        width: 30px;
+    }
+    
+    .amostra1, .amostra2, .amostra3{
+        height: 50px;
+        width: 70px;
+        border: 1px solid rgb(4, 179, 179);
+        display: inline-block;
+        margin: 2px;
+        background-color: rgb(200, 236, 245);;
+        /*line-height: 200px;*/
+        
+    }
+     
+
+    .amostra1:hover, .amostra2:hover,.amostra3:hover{
+        transition: background-color 0.0s ease;
+        transform: scale(1.1);
+        background-color: red;
+        color: white;
+    }
+    
+    #sobre h1{
+        font-size: 40px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(200, 236, 245);
+    }
+    
+    #sobre{
+        text-align: center;
+        margin:30px;
+    }
+    
+    p{
+        font-size: 20px;
+    }
+    
+    .businness{
+        text-align: center;
+        margin: 30px;
+    }
+    
+    .businness h1{
+        font-size: 40px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(200, 236, 245);
+       
+    
+    }
+    
+    .slides{
+        width: 100%;
+        justify-content: center;
+        margin: auto;
+    }
+    
+    #contato{
+        text-align: center;
+        margin: 30px;
+    }
+    
+    #contato h1{
+        font-size: 40px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(200, 236, 245);
+    }
+    
+    button{
+        background-color: red;
+        padding: 5px;
+    }
+    
+    button a{
+        border: none;
+        color: white;  
+        text-decoration: none;
+        animation: animate 0.7s linear infinite;
+    }
+    
+    
+    @keyframes animate {
+        0% {
+            opacity: 0;
+        }
+    
+        50% {
+            opacity: 0.7;
+        }
+    
+        100% {
+            opacity: 0;
+        }
+    }
+    
+    button:hover{
+        
+        scale: 1.1;
+        
+    }
+    
+    #localizaçao {
+        text-align: center;
+        margin:30px;
+        
+    }
+    
+    #localizaçao h1{
+        font-size: 40px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(200, 236, 245);
+    }
+    .footer-pai{
+        text-align: center;
+        display: inline-block;
+    }
+    footer{
+        background-color: rgb(200, 236, 245);
+        height: 500px;
+        text-align: center;
+    }
+
+    footer p {
+        float: left;
+        margin: 10px;
+        color: white;
+        text-shadow: 4px 5px 4px rgb(0, 0, 0);
+        font-size: 40px;
+        font-weight: bolder;
+        padding: 10px;
+        padding-bottom: 100px ;
+    }
+    
+    .footer1 a{
+        padding: 10px;
+        display: block;
+        text-decoration: none;
+        color:rgb(255, 255, 255);
+        text-shadow: 1px 1px 2px rgb(0, 0, 0);
+        margin: 10px;
+    }
+    
+    .footer1 a:hover{
+        color: red;
+    }
+    
+    .end{
+        background-color: black;
+        color: white;
+        text-align: center;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
+    
+    }
+
+  }
+
+  @media only screen and (max-width: 480px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        min-height: 100vh;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+    } 
+    
+    
+    .site{
+        margin: 0;
+        padding: 0;
+    }
+    
+    #vai h1{
+        font-size: 40px;
+    }
+
+    #vai h3{
+        font-size: 30px;
+    }
+    
+    main{
+        width: 100%;
+        height: 300px;
+        line-height: 100px;
+        border-radius: 1px 1px 1px 1px;
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px 1px rgb(3, 122, 122);
+        font-weight:bolder ;
+        text-align: center;
+    }
+
+    main img{
+        width: 120px;
+    }
+    
+    
+    .serviços{
+        width: 100%;
+        height: 1000px;
+        background-color: rgba(0, 0, 0, 0.068);
+    }
+    
+    .serviços h1{
+        text-align: center;
+        font-size: 20;
+        margin: 30px;
+        padding: 40px;
+    
+    }
+    .amostras{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    .amostra1, .amostra2, .amostra3{
+        height: 200px;
+        width: 50%;
+        border: 1px solid rgb(4, 179, 179);
+        display: inline-block;
+        margin: 10px;
+        background-color: rgb(200, 236, 245);;
+        /*line-height: 200px;*/
+        
+    }
+    
+    .amostra1:hover, .amostra2:hover,.amostra3:hover{
+        transition: background-color 0.0s ease;
+        transform: scale(1.1);
+        background-color: red;
+        color: white;
+    }
+    
+    #sobre h1{
+        font-size: 40px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(200, 236, 245);
+    }
+    
+    #sobre{
+        text-align: center;
+        margin:30px;
+    }
+    
+    p{
+        font-size: 20px;
+    }
+    
+    .businness{
+        text-align: center;
+        margin: 30px;
+    }
+    
+    .businness h1{
+        font-size: 40px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(200, 236, 245);
+       
+    
+    }
+    
+    .slides{
+        width: 100%;
+        justify-content: center;
+        margin: auto;
+    }
+    
+    #contato{
+        text-align: center;
+        margin: 30px;
+    }
+    
+    #contato h1{
+        font-size: 40px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(200, 236, 245);
+    }
+    
+    button{
+        background-color: red;
+        padding: 5px;
+    }
+    
+    button a{
+        border: none;
+        color: white;  
+        text-decoration: none;
+        animation: animate 0.7s linear infinite;
+    }
+    
+    
+    @keyframes animate {
+        0% {
+            opacity: 0;
+        }
+    
+        50% {
+            opacity: 0.7;
+        }
+    
+        100% {
+            opacity: 0;
+        }
+    }
+    
+    button:hover{
+        
+        scale: 1.1;
+        
+    }
+    
+    #localizaçao {
+        text-align: center;
+        margin:30px;
+        
+    }
+    
+    #localizaçao h1{
+        font-size: 20px;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(200, 236, 245);
+    }
+    
+    footer{
+        background-color: rgb(200, 236, 245);
+        height: 500px;
+        text-align: center;  
+    }
+
+    footer p {
+        float: left;
+        margin: 10px;
+        color: white;
+        text-shadow: 4px 5px 4px rgb(0, 0, 0);
+        font-size: 40px;
+        font-weight: bolder;
+        padding: 10px;
+        padding-bottom: 100px ;
+    }
+    
+    .footer1 a{
+        padding: 10px;
+        display: block;
+        text-decoration: none;
+        color:rgb(255, 255, 255);
+        text-shadow: 1px 1px 2px rgb(0, 0, 0);
+        margin: 10px;
+    }
+    
+    .footer1 a:hover{
+        color: red;
+    }
+    
+    .end{
+        background-color: black;
+        color: white;
+        text-align: center;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
+    
+    }
+
+  }
